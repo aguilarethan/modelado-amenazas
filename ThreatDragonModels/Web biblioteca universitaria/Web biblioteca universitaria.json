@@ -18,15 +18,6 @@
         "version": "2.2.0",
         "cells": [],
         "description": "A alto nivel"
-      },
-      {
-        "id": 2,
-        "title": "Nuevo diagrama STRIDE",
-        "diagramType": "STRIDE",
-        "placeholder": "Descripción de nuevo diagrama STRIDE",
-        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.2.0",
-        "cells": []
       }
     ],
     "diagramTop": 3,
