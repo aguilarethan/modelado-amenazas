@@ -3,14 +3,14 @@
   "summary": {
     "title": "Web biblioteca universitaria",
     "owner": "Ethan",
-    "description": "",
+    "description": "El sitio web de la biblioteca universitaria es la primera implementación de un sitio web para brindar servicios en línea a los bibliotecarios y usuarios de la biblioteca (estudiantes y personal universitario). ",
     "id": 0
   },
   "detail": {
     "contributors": [],
     "diagrams": [],
-    "diagramTop": 0,
-    "reviewer": "",
+    "diagramTop": 1,
+    "reviewer": "Humberto",
     "threatTop": 0
   }
 }
