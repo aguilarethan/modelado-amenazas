@@ -191,102 +191,6 @@
                 "sourceMarker": {
                   "name": ""
                 },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Resultados Web App Query",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "5389a8b1-54d5-4dc0-a920-a63af4308937",
-            "labels": [
-              "Resultados Web App Query"
-            ],
-            "source": {
-              "cell": "e42df3bf-76d6-4d14-8a03-1642dddda853"
-            },
-            "target": {
-              "cell": "51fb3a84-21b8-40eb-bf37-8bc478d61aad"
-            },
-            "vertices": [
-              {
-                "x": 710,
-                "y": 320
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Queries",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "4075b2fe-71d3-470a-9a1f-e75ce5fe00fd",
-            "labels": [
-              "Queries"
-            ],
-            "source": {
-              "cell": "51fb3a84-21b8-40eb-bf37-8bc478d61aad"
-            },
-            "target": {
-              "cell": "e42df3bf-76d6-4d14-8a03-1642dddda853"
-            },
-            "vertices": [
-              {
-                "x": 680,
-                "y": 430
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
                 "strokeDasharray": "4 3"
               }
             },
@@ -694,17 +598,141 @@
                 "x": 590,
                 "y": 150
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Resultados Web App Query",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "32df0183-ec46-4cca-aac7-219e0f1c684a",
+                  "title": "Ataque Man in the middle",
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría interceptar las consultas de la base de datos en tránsito y obtener información confidencial, como credenciales de la base de datos, parámetros de consulta o resultados de la consulta (es poco probable ya que el flujo de datos se realiza a través de una red privada).",
+                  "mitigation": "Aplicar una conexión cifrada en el servidor de base de datos.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": ""
+                }
               ],
-              "name": null
-            }
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "id": "5389a8b1-54d5-4dc0-a920-a63af4308937",
+            "labels": [
+              "Resultados Web App Query"
+            ],
+            "source": {
+              "cell": "e42df3bf-76d6-4d14-8a03-1642dddda853"
+            },
+            "target": {
+              "cell": "51fb3a84-21b8-40eb-bf37-8bc478d61aad"
+            },
+            "vertices": [
+              {
+                "x": 710,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Queries",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "318642d6-326f-44db-80a8-43e58173f386",
+                  "title": "Ataque Man in the middle",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Un atacante podría interceptar las consultas de la base de datos en tránsito y obtener información confidencial, como credenciales de la base de datos, parámetros de consulta o resultados de la consulta (es poco probable ya que el flujo de datos se realiza a través de una red privada).",
+                  "mitigation": "Aplicar una conexión cifrada en el servidor de base de datos.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "id": "4075b2fe-71d3-470a-9a1f-e75ce5fe00fd",
+            "labels": [
+              "Queries"
+            ],
+            "source": {
+              "cell": "51fb3a84-21b8-40eb-bf37-8bc478d61aad"
+            },
+            "target": {
+              "cell": "e42df3bf-76d6-4d14-8a03-1642dddda853"
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": 430
+              }
+            ]
           },
           {
             "position": {
@@ -1649,6 +1677,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "Humberto",
-    "threatTop": 23
+    "threatTop": 25
   }
 }
