@@ -18,9 +18,19 @@
         "version": "2.2.0",
         "cells": [],
         "description": "A alto nivel"
+      },
+      {
+        "id": 3,
+        "title": "Diagrama de flujo de datos de inicio de sesión del usuario para el sitio web de la biblioteca universitaria",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": [],
+        "description": "Inicio de sesión"
       }
     ],
-    "diagramTop": 3,
+    "diagramTop": 4,
     "reviewer": "Humberto",
     "threatTop": 0
   }
